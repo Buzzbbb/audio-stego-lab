@@ -1,0 +1,18 @@
+[project]
+name = "audio-stego-lab"
+version = "0.1.0"
+description = "鲁棒音频信息隐藏工具箱"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "林裕斌" },
+  { name = "曾科" },
+  { name = "田承金" },
+  { name = "吕善翔" }
+]
+
+[project.scripts]
+audio_stego_lab = "audio_stego_lab.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
